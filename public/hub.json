@@ -1,0 +1,25 @@
+{
+  "clans": [
+    {
+      "tag": "GAL",
+      "name": "GAL",
+      "promo": "Clan équipes OpenFront. Tableau live, file, classement et salon clan.",
+      "discord": "",
+      "events": [
+        { "title": "Soirée équipes", "when": "Chaque week-end", "detail": "File Duos / Trios / Quads, tag GAL obligatoire." }
+      ],
+      "campaigns": [
+        { "title": "Saison en cours", "detail": "Monter le solde clan et le classement des joueurs." }
+      ],
+      "rewards": [
+        { "id": "week-points", "title": "Meilleur solde de la fenêtre", "prize": "Tag Discord du clan", "metric": "solde" }
+      ],
+      "streamers": [],
+      "videos": [],
+      "tutos": [
+        { "lang": "fr", "title": "Bases équipes", "youtube": "" },
+        { "lang": "en", "title": "Team basics", "youtube": "" }
+      ]
+    }
+  ]
+}

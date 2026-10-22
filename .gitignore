@@ -1,0 +1,17 @@
+.access.json
+ovh/api/config.php
+cache/
+ovh/cache/*
+!ovh/cache/.htaccess
+!ovh/cache/hub.json
+logs/
+*.log
+*.zip
+DISABLED
+node_modules/
+.DS_Store
+Thumbs.db
+mod.js
+hook-game.js
+patch-template.js
+ovh-proxy.js

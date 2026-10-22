@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-label="GAL.TERM">
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#5cc5f7" opacity="0.16"/>
+    </pattern>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#edc326"/>
+      <stop offset="1" stop-color="#fccf28"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" fill="#040e25"/>
+  <rect width="1280" height="420" fill="url(#grid)"/>
+  <rect y="0" width="1280" height="2" fill="#fccf28"/>
+  <text x="64" y="48" fill="#83aac7" font-family="Consolas, ui-monospace, monospace" font-size="14" letter-spacing="4">MODULE 01 / TABLEAU</text>
+  <text x="1216" y="48" text-anchor="end" fill="#5cc5f7" font-family="Consolas, ui-monospace, monospace" font-size="14" letter-spacing="4">OPENFRONT</text>
+  <text x="640" y="210" text-anchor="middle" fill="url(#gold)" font-family="Consolas, ui-monospace, monospace" font-size="92" font-weight="700" letter-spacing="18">GAL.TERM</text>
+  <rect x="430" y="238" width="420" height="1" fill="#fccf28" opacity="0.85"/>
+  <text x="640" y="280" text-anchor="middle" fill="#5cc5f7" font-family="Consolas, ui-monospace, monospace" font-size="20" letter-spacing="6">OBSERVATOIRE DU CLAN GAL</text>
+  <text x="64" y="392" fill="#83aac7" font-family="Consolas, ui-monospace, monospace" font-size="14" letter-spacing="3">gal.ciriushub.fr</text>
+  <text x="1216" y="392" text-anchor="end" fill="#83aac7" font-family="Consolas, ui-monospace, monospace" font-size="14" letter-spacing="3">LIVE · RANKS · PLAYERS</text>
+</svg>

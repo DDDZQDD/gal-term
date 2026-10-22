@@ -1,0 +1,14 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "no-referrer"
+  Header set X-Frame-Options "DENY"
+  Header set Content-Security-Policy "default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; img-src 'self' data:; frame-src https://www.youtube-nocookie.com https://player.twitch.tv; base-uri 'self'; frame-ancestors 'none'"
+</IfModule>
+
+<FilesMatch "(?i)\.(json)$">
+  Require all denied
+</FilesMatch>
